@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#334f5f"
+    tools:context=".AlertBox">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Name"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edname"
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="RollNo"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edrollno"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:text="Email"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/email"
+            android:textColor="#ffffff"
+            android:inputType="textEmailAddress"
+            />
+
+    </LinearLayout>
+
+<Button
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:text="Save"
+    android:background="@color/colorPrimary"
+    android:textColor="#ffffff"
+    android:id="@+id/btnsave"
+    android:textSize="20sp"
+    android:layout_gravity="center"
+    android:layout_margin="10sp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btncancel"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"/>
+
+</LinearLayout>

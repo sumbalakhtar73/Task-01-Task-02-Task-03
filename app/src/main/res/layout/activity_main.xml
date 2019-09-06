@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f59fff"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Text To Speech"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#f33333"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/edtext"
+        android:layout_marginTop="40dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/read"
+            android:text="Read"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#33ffff"
+            android:onClick="ITS"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stop"
+            android:text="Stop"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#33ffff"
+            android:onClick="ITS"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotposearch"
+        android:text="Go To Search"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="#33ffff"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/goroform"
+        android:text="Go To Form"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="#33ffff"
+        />
+
+
+
+</LinearLayout>
